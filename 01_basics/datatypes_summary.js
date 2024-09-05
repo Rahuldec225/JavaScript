@@ -48,3 +48,13 @@ const myFunction = function(){
 
 
 console.log(typeof bigNumber )
+
+
+
+
+/* #####       memory type    ######
+  
+        stack (Premitive),  Heap (Non-Premetive)
+
+*/
+
