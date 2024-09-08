@@ -1,19 +1,21 @@
-let score = true
+let score = "33sd"
 
 
-// console.log(typeof score );
-// console.log(typeof (score));
+
+//console.log(score)                          // => true
+// console.log(typeof score );           //=> boolean  
+//console.log(typeof (score));                // => boolean
 
 
-let valueInNumber = Number(score)
+let valueInNumber = Number(score)        
 
-// console.log(typeof valueInNumber)
-// console.log(valueInNumber)
+//console.log(typeof valueInNumber)          // => number
+//console.log(valueInNumber)                  // => 1
 
 
 
 // "33"=> 33
-// "33sd"=> NaN
+// "33sd"=> NaN  (Not a Number)
 // "true "=> 1  ,  "false" => 0
 
 
@@ -21,15 +23,16 @@ let isLoggedIn = "dhfs"
 
 
 let booleanLoggedIn = Boolean(isLoggedIn)
-// console.log(booleanLoggedIn)
+// console.log(booleanLoggedIn)   // =>  True
 
 
 
 let someNumber = 33
 let stringNumber = String(someNumber) 
-// console.log(stringNumber)
 
-// console.log(typeof stringNumber)
+
+// console.log(stringNumber)                 // => 33  
+// console.log(typeof stringNumber)            // => string
 
 
 
@@ -40,4 +43,4 @@ let stringNumber = String(someNumber)
 
 let value = 3
 let negValue = -value
-// console.log(negValue)
+// console.log(negValue)            //=>  -3
